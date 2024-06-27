@@ -1,0 +1,77 @@
+server:
+    port: 12389
+spring:
+    application:
+        name: '@project.artifactId@'
+    redis:
+        host: 10.160.96.24
+        port: 6379
+        password: Lpb123!@#
+        timeout: 10000
+        poolSize: 20
+        minimumIdleSize: 5
+    kafka:
+        bootstrap-servers: 10.160.96.29:9092,10.160.96.30:9092,10.160.96.31:9092,10.160.96.32:9092,10.160.96.33:9092,10.160.96.34:9092
+    datasource:
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+        hikari:
+            connection-timeout: 60000
+            maximum-pool-size: 10
+            minimum-idle: 1
+            leakDetection: 15000
+            idle-timeout: 25000
+            max-lifetime: 600000
+            auto-commit: true
+        password: LVp!2024!3fseiz
+        url: jdbc:oracle:thin:@openapidb.lpbank.com.vn:1521/openapidb
+        username: kcn_publicapi_tbs
+    jpa:
+        open-in-view: false
+        hibernate:
+            ddl-auto: none
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.Oracle10gDialect
+                order_inserts: true
+                order_updates: true
+                generate_statistics: true
+                jdbc:
+                    batch_size: 100
+    servlet:
+        multipart:
+            max-file-size: 15MB
+            max-request-size: 15MB
+    http:
+        multipart:
+            max-file-size: 15MB
+            max-request-size: 15MB
+    sleuth:
+        sampler:
+            probability: 1
+info:
+    run:
+        dir: ${user.dir}
+        user: ${user.name}
+logging:
+    level:
+        org:
+            springframework:
+                data:
+                    mongodb:
+                        core:
+                            MongoTemplate: DEBUG
+                web: DEBUG
+                web.HttpLogging: INFO
+                web.filter.CommonsRequestLoggingFilter: DEBUG
+                orm.jpa: DEBUG
+                transaction: DEBUG
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+kafka:
+    consumer:
+        check_token:
+            topic : check_token_live_send
+            group_Id_red: check_token_live_red

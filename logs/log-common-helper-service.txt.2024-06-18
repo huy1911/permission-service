@@ -1,0 +1,1439 @@
+[2m2024-06-18 08:25:35.078[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m 648 [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2024-06-18 08:25:36.046[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 08:25:36.047[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2024-06-18 08:25:36.096[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 53ms. Found 1 JPA repository interfaces.
+[2m2024-06-18 08:25:36.111[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 08:25:36.111[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2024-06-18 08:25:36.127[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.RepositoryConfigurationExtensionSupport[0;39m 348 [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lpb.mid.repo.UserRepositorys. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[2m2024-06-18 08:25:36.127[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+[2m2024-06-18 08:25:36.377[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m 295 [2m:[0;39m BeanFactory id=a6a13df1-c7f9-3e20-a831-797d87db0177
+[2m2024-06-18 08:25:36.963[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 108 [2m:[0;39m Tomcat initialized with port(s): 12389 (http)
+[2m2024-06-18 08:25:36.970[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting service [Tomcat]
+[2m2024-06-18 08:25:36.970[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2m2024-06-18 08:25:37.142[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2024-06-18 08:25:37.142[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m 285 [2m:[0;39m Root WebApplicationContext: initialization completed in 2033 ms
+[2m2024-06-18 08:25:38.333[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.redisson.Version                    [0;39m 43  [2m:[0;39m Redisson 3.27.1
+[2m2024-06-18 08:25:38.819[0;39m [33m WARN [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.r.c.SequentialDnsAddressResolverFactory[0;39m 111 [2m:[0;39m DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+[2m2024-06-18 08:25:39.333[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[isson-netty-1-6][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 1 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 08:25:40.708[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 5 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 08:25:41.382[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m 361 [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 08:25:41.398[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m 31  [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2024-06-18 08:25:41.441[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.Version                   [0;39m 44  [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.32.Final
+[2m2024-06-18 08:25:41.526[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.a.c.r.java.JavaReflectionManager    [0;39m 56  [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2024-06-18 08:25:41.609[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 110 [2m:[0;39m HikariPool-1 - Starting...
+[2m2024-06-18 08:25:41.609[0;39m [33m WARN [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m 70  [2m:[0;39m Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2m2024-06-18 08:25:42.063[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 123 [2m:[0;39m HikariPool-1 - Start completed.
+[2m2024-06-18 08:25:42.069[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.dialect.Dialect           [0;39m 175 [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2m2024-06-18 08:25:42.986[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m 52  [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2024-06-18 08:25:43.006[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.AbstractEntityManagerFactoryBean[0;39m 419 [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 08:25:43.133[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 08:25:43.173[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 08:25:43.173[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 08:25:43.173[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 08:25:43.202[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 08:25:43.202[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 08:25:43.248[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 08:25:43.248[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 08:25:43.264[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 08:25:44.200[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2024-06-18 08:25:44.256[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m 614 [2m:[0;39m ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2m2024-06-18 08:25:44.338[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.h.AbstractHandlerMethodMapping  [0;39m 351 [2m:[0;39m 2 mappings in 'requestMappingHandlerMapping'
+[2m2024-06-18 08:25:44.376[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m 173 [2m:[0;39m Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2m2024-06-18 08:25:44.447[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m 297 [2m:[0;39m ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2m2024-06-18 08:25:45.316[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m 58  [2m:[0;39m LiveReload server is running on port 35729
+[2m2024-06-18 08:25:45.762[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m 58  [2m:[0;39m Exposing 15 endpoint(s) beneath base path '/actuator'
+[2m2024-06-18 08:25:45.932[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-18 08:25:45.985[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 08:25:45.985[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 08:25:45.985[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718673945985
+[2m2024-06-18 08:25:45.985[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-18 08:25:45.985[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-18 08:25:46.000[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 220 [2m:[0;39m Tomcat started on port(s): 12389 (http) with context path ''
+[2m2024-06-18 08:25:46.223[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 08:25:46.225[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-18 08:25:46.227[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 08:25:46.235[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-18 08:25:46.235[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 08:25:46.254[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.StartupInfoLogger              [0;39m 61  [2m:[0;39m Started PermissionMain in 12.368 seconds (JVM running for 13.627)
+[2m2024-06-18 08:25:46.697[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2024-06-18 08:25:46.698[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 525 [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2024-06-18 08:25:46.698[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m 526 [2m:[0;39m Detected StandardServletMultipartResolver
+[2m2024-06-18 08:25:46.726[0;39m [32mDEBUG [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 542 [2m:[0;39m enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2m2024-06-18 08:25:46.726[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 547 [2m:[0;39m Completed initialization in 28 ms
+[2m2024-06-18 08:25:49.148[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Successfully joined group with generation 141
+[2m2024-06-18 08:25:49.148[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Adding newly assigned partitions: check_token_send-2
+[2m2024-06-18 08:25:49.179[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Setting offset for partition check_token_send-2 to the committed offset FetchPosition{offset=76, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-18 08:25:49.179[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-2]
+[2m2024-06-18 08:29:46.087[0;39m [32m INFO [,c2507a7e321da7817ddb1eb47f0a68bc,da3ace591b0f7e1f,false][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 2, leaderEpoch = 0, offset = 76, CreateTime = 1718674166344, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [52, 49, 52, 101, 99, 49, 49, 100, 45, 97, 99, 48, 50, 45, 52, 52, 57, 55, 45, 98, 56, 48, 101, 45, 51, 54, 56, 55, 55, 98, 51, 52, 56, 52, 49, 101]), RecordHeader(key = kafka_correlationId, value = [-64, 3, -46, -49, 95, 69, 66, -21, -128, 74, -90, -13, -2, 88, -20, 127]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24000131cb-af2c-4824-bf5e-88004ecea659, value = {"customerNo":"203121927","username":"lv24"})
+[2m2024-06-18 08:29:46.100[0;39m [32m INFO [,c2507a7e321da7817ddb1eb47f0a68bc,da3ace591b0f7e1f,false][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203121927, username=lv24)
+[2m2024-06-18 08:29:46.192[0;39m [32m INFO [,c2507a7e321da7817ddb1eb47f0a68bc,da3ace591b0f7e1f,false][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203121927","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24000131cb-af2c-4824-bf5e-88004ecea659
+[2m2024-06-18 08:29:46.203[0;39m [32m INFO [,c2507a7e321da7817ddb1eb47f0a68bc,da3ace591b0f7e1f,false][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 3000000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 20971520
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 3000000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2m2024-06-18 08:29:46.206[0;39m [33m WARN [,c2507a7e321da7817ddb1eb47f0a68bc,da3ace591b0f7e1f,false][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.clients.producer.KafkaProducer    [0;39m 499 [2m:[0;39m [Producer clientId=producer-1] delivery.timeout.ms should be equal to or larger than linger.ms + request.timeout.ms. Setting it to 3000000.
+[2m2024-06-18 08:29:46.221[0;39m [32m INFO [,c2507a7e321da7817ddb1eb47f0a68bc,da3ace591b0f7e1f,false][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 08:29:46.222[0;39m [32m INFO [,c2507a7e321da7817ddb1eb47f0a68bc,da3ace591b0f7e1f,false][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 08:29:46.222[0;39m [32m INFO [,c2507a7e321da7817ddb1eb47f0a68bc,da3ace591b0f7e1f,false][0;39m [35m22124[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718674186221
+[2m2024-06-18 08:29:46.251[0;39m [32m INFO [,,,][0;39m [35m22124[0;39m [2m---[0;39m [2m[ad | producer-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Producer clientId=producer-1] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 11:27:41.610[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m 648 [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2024-06-18 11:27:42.345[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 11:27:42.345[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2024-06-18 11:27:42.397[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 47ms. Found 1 JPA repository interfaces.
+[2m2024-06-18 11:27:42.405[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 11:27:42.406[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2024-06-18 11:27:42.417[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.RepositoryConfigurationExtensionSupport[0;39m 348 [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lpb.mid.repo.UserRepositorys. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[2m2024-06-18 11:27:42.418[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+[2m2024-06-18 11:27:42.638[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m 295 [2m:[0;39m BeanFactory id=a6a13df1-c7f9-3e20-a831-797d87db0177
+[2m2024-06-18 11:27:43.241[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 108 [2m:[0;39m Tomcat initialized with port(s): 12389 (http)
+[2m2024-06-18 11:27:43.246[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting service [Tomcat]
+[2m2024-06-18 11:27:43.247[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2m2024-06-18 11:27:43.390[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2024-06-18 11:27:43.390[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m 285 [2m:[0;39m Root WebApplicationContext: initialization completed in 1770 ms
+[2m2024-06-18 11:27:44.375[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.redisson.Version                    [0;39m 43  [2m:[0;39m Redisson 3.27.1
+[2m2024-06-18 11:27:44.670[0;39m [33m WARN [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.r.c.SequentialDnsAddressResolverFactory[0;39m 111 [2m:[0;39m DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+[2m2024-06-18 11:27:44.935[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[isson-netty-1-6][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 1 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 11:27:44.983[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 5 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 11:27:45.547[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m 361 [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 11:27:45.557[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m 31  [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2024-06-18 11:27:45.587[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.Version                   [0;39m 44  [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.32.Final
+[2m2024-06-18 11:27:45.662[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.a.c.r.java.JavaReflectionManager    [0;39m 56  [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2024-06-18 11:27:45.725[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 110 [2m:[0;39m HikariPool-1 - Starting...
+[2m2024-06-18 11:27:45.726[0;39m [33m WARN [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m 70  [2m:[0;39m Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2m2024-06-18 11:27:46.223[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 123 [2m:[0;39m HikariPool-1 - Start completed.
+[2m2024-06-18 11:27:46.232[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.dialect.Dialect           [0;39m 175 [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2m2024-06-18 11:27:46.755[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m 52  [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2024-06-18 11:27:46.762[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.AbstractEntityManagerFactoryBean[0;39m 419 [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 11:27:46.855[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 11:27:46.886[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 11:27:46.887[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 11:27:46.887[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 11:27:46.913[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 11:27:46.914[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 11:27:46.945[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 11:27:46.946[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 11:27:46.947[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 11:27:47.658[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2024-06-18 11:27:47.744[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m 614 [2m:[0;39m ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2m2024-06-18 11:27:47.931[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.h.AbstractHandlerMethodMapping  [0;39m 351 [2m:[0;39m 2 mappings in 'requestMappingHandlerMapping'
+[2m2024-06-18 11:27:48.010[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m 173 [2m:[0;39m Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2m2024-06-18 11:27:48.126[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m 297 [2m:[0;39m ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2m2024-06-18 11:27:49.398[0;39m [33m WARN [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m 61  [2m:[0;39m Unable to start LiveReload server
+[2m2024-06-18 11:27:50.189[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m 58  [2m:[0;39m Exposing 15 endpoint(s) beneath base path '/actuator'
+[2m2024-06-18 11:27:50.299[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-18 11:27:50.331[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 11:27:50.332[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 11:27:50.332[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718684870331
+[2m2024-06-18 11:27:50.334[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-18 11:27:50.335[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-18 11:27:50.358[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 220 [2m:[0;39m Tomcat started on port(s): 12389 (http) with context path ''
+[2m2024-06-18 11:27:50.498[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 11:27:50.500[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-18 11:27:50.502[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 11:27:50.518[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-18 11:27:50.518[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 11:27:50.571[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.StartupInfoLogger              [0;39m 61  [2m:[0;39m Started PermissionMain in 9.951 seconds (JVM running for 11.038)
+[2m2024-06-18 11:27:50.839[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2024-06-18 11:27:50.839[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 525 [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2024-06-18 11:27:50.839[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m 526 [2m:[0;39m Detected StandardServletMultipartResolver
+[2m2024-06-18 11:27:50.855[0;39m [32mDEBUG [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 542 [2m:[0;39m enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2m2024-06-18 11:27:50.855[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 547 [2m:[0;39m Completed initialization in 16 ms
+[2m2024-06-18 11:27:53.001[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Successfully joined group with generation 143
+[2m2024-06-18 11:27:53.004[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Adding newly assigned partitions: check_token_send-2
+[2m2024-06-18 11:27:53.028[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Setting offset for partition check_token_send-2 to the committed offset FetchPosition{offset=88, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-18 11:27:53.029[0;39m [32m INFO [,,,][0;39m [35m24952[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-2]
+[2m2024-06-18 13:39:37.301[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m 648 [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2024-06-18 13:39:38.007[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 13:39:38.007[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2024-06-18 13:39:38.054[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+[2m2024-06-18 13:39:38.063[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 13:39:38.064[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2024-06-18 13:39:38.075[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.RepositoryConfigurationExtensionSupport[0;39m 348 [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lpb.mid.repo.UserRepositorys. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[2m2024-06-18 13:39:38.075[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+[2m2024-06-18 13:39:38.306[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m 295 [2m:[0;39m BeanFactory id=a6a13df1-c7f9-3e20-a831-797d87db0177
+[2m2024-06-18 13:39:38.832[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 108 [2m:[0;39m Tomcat initialized with port(s): 12389 (http)
+[2m2024-06-18 13:39:38.837[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting service [Tomcat]
+[2m2024-06-18 13:39:38.837[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2m2024-06-18 13:39:38.974[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2024-06-18 13:39:38.975[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m 285 [2m:[0;39m Root WebApplicationContext: initialization completed in 1665 ms
+[2m2024-06-18 13:39:39.906[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.redisson.Version                    [0;39m 43  [2m:[0;39m Redisson 3.27.1
+[2m2024-06-18 13:39:40.201[0;39m [33m WARN [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.r.c.SequentialDnsAddressResolverFactory[0;39m 111 [2m:[0;39m DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+[2m2024-06-18 13:39:40.483[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[isson-netty-1-6][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 1 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 13:39:40.836[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 5 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 13:39:41.266[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m 361 [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 13:39:41.274[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m 31  [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2024-06-18 13:39:41.298[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.Version                   [0;39m 44  [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.32.Final
+[2m2024-06-18 13:39:41.364[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.a.c.r.java.JavaReflectionManager    [0;39m 56  [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2024-06-18 13:39:41.417[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 110 [2m:[0;39m HikariPool-1 - Starting...
+[2m2024-06-18 13:39:41.418[0;39m [33m WARN [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m 70  [2m:[0;39m Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2m2024-06-18 13:39:41.859[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 123 [2m:[0;39m HikariPool-1 - Start completed.
+[2m2024-06-18 13:39:41.867[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.dialect.Dialect           [0;39m 175 [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2m2024-06-18 13:39:43.077[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m 52  [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2024-06-18 13:39:43.084[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.AbstractEntityManagerFactoryBean[0;39m 419 [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 13:39:43.181[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 13:39:43.208[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 13:39:43.209[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 13:39:43.209[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 13:39:43.233[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 13:39:43.234[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 13:39:43.263[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 13:39:43.265[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 13:39:43.265[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 13:39:43.872[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2024-06-18 13:39:43.898[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m 614 [2m:[0;39m ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2m2024-06-18 13:39:43.944[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.h.AbstractHandlerMethodMapping  [0;39m 351 [2m:[0;39m 2 mappings in 'requestMappingHandlerMapping'
+[2m2024-06-18 13:39:43.964[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m 173 [2m:[0;39m Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2m2024-06-18 13:39:44.004[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m 297 [2m:[0;39m ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2m2024-06-18 13:39:44.531[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m 58  [2m:[0;39m LiveReload server is running on port 35729
+[2m2024-06-18 13:39:44.870[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m 58  [2m:[0;39m Exposing 15 endpoint(s) beneath base path '/actuator'
+[2m2024-06-18 13:39:45.000[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-18 13:39:45.034[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 13:39:45.035[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 13:39:45.035[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718692785033
+[2m2024-06-18 13:39:45.037[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-18 13:39:45.038[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-18 13:39:45.054[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 220 [2m:[0;39m Tomcat started on port(s): 12389 (http) with context path ''
+[2m2024-06-18 13:39:45.223[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 13:39:45.225[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-18 13:39:45.228[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 13:39:45.246[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-18 13:39:45.247[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 13:39:45.265[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.StartupInfoLogger              [0;39m 61  [2m:[0;39m Started PermissionMain in 9.176 seconds (JVM running for 10.72)
+[2m2024-06-18 13:39:45.804[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2024-06-18 13:39:45.804[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 525 [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2024-06-18 13:39:45.804[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m 526 [2m:[0;39m Detected StandardServletMultipartResolver
+[2m2024-06-18 13:39:45.821[0;39m [32mDEBUG [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 542 [2m:[0;39m enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2m2024-06-18 13:39:45.822[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 547 [2m:[0;39m Completed initialization in 18 ms
+[2m2024-06-18 13:39:47.409[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Successfully joined group with generation 145
+[2m2024-06-18 13:39:47.412[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Adding newly assigned partitions: check_token_send-2
+[2m2024-06-18 13:39:47.426[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Setting offset for partition check_token_send-2 to the committed offset FetchPosition{offset=88, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-18 13:39:47.427[0;39m [32m INFO [,,,][0;39m [35m424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-2]
+[2m2024-06-18 14:27:00.309[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m 648 [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2024-06-18 14:27:01.019[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 14:27:01.019[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2024-06-18 14:27:01.077[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 52ms. Found 1 JPA repository interfaces.
+[2m2024-06-18 14:27:01.086[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 14:27:01.087[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2024-06-18 14:27:01.112[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.RepositoryConfigurationExtensionSupport[0;39m 348 [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lpb.mid.repo.UserRepositorys. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[2m2024-06-18 14:27:01.112[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+[2m2024-06-18 14:27:01.382[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m 295 [2m:[0;39m BeanFactory id=a6a13df1-c7f9-3e20-a831-797d87db0177
+[2m2024-06-18 14:27:01.912[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 108 [2m:[0;39m Tomcat initialized with port(s): 12389 (http)
+[2m2024-06-18 14:27:01.918[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting service [Tomcat]
+[2m2024-06-18 14:27:01.918[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2m2024-06-18 14:27:02.045[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2024-06-18 14:27:02.045[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m 285 [2m:[0;39m Root WebApplicationContext: initialization completed in 1725 ms
+[2m2024-06-18 14:27:03.188[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.redisson.Version                    [0;39m 43  [2m:[0;39m Redisson 3.27.1
+[2m2024-06-18 14:27:03.519[0;39m [33m WARN [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.r.c.SequentialDnsAddressResolverFactory[0;39m 111 [2m:[0;39m DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+[2m2024-06-18 14:27:03.793[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[isson-netty-1-6][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 1 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 14:27:03.844[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 5 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 14:27:04.363[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m 361 [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 14:27:04.374[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m 31  [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2024-06-18 14:27:04.407[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.Version                   [0;39m 44  [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.32.Final
+[2m2024-06-18 14:27:04.514[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.a.c.r.java.JavaReflectionManager    [0;39m 56  [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2024-06-18 14:27:04.594[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 110 [2m:[0;39m HikariPool-1 - Starting...
+[2m2024-06-18 14:27:04.596[0;39m [33m WARN [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m 70  [2m:[0;39m Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2m2024-06-18 14:27:05.173[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 123 [2m:[0;39m HikariPool-1 - Start completed.
+[2m2024-06-18 14:27:05.182[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.dialect.Dialect           [0;39m 175 [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2m2024-06-18 14:27:05.850[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m 52  [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2024-06-18 14:27:05.858[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.AbstractEntityManagerFactoryBean[0;39m 419 [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 14:27:05.977[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 14:27:06.010[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 14:27:06.010[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 14:27:06.010[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 14:27:06.039[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 14:27:06.039[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 14:27:06.075[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 14:27:06.077[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 14:27:06.077[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 14:27:06.792[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2024-06-18 14:27:06.825[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m 614 [2m:[0;39m ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2m2024-06-18 14:27:06.884[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.h.AbstractHandlerMethodMapping  [0;39m 351 [2m:[0;39m 2 mappings in 'requestMappingHandlerMapping'
+[2m2024-06-18 14:27:06.912[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m 173 [2m:[0;39m Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2m2024-06-18 14:27:06.973[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m 297 [2m:[0;39m ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2m2024-06-18 14:27:07.721[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m 58  [2m:[0;39m LiveReload server is running on port 35729
+[2m2024-06-18 14:27:08.086[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m 58  [2m:[0;39m Exposing 15 endpoint(s) beneath base path '/actuator'
+[2m2024-06-18 14:27:08.224[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-18 14:27:08.263[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 14:27:08.264[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 14:27:08.264[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718695628262
+[2m2024-06-18 14:27:08.266[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-18 14:27:08.268[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-18 14:27:08.285[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 220 [2m:[0;39m Tomcat started on port(s): 12389 (http) with context path ''
+[2m2024-06-18 14:27:08.472[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 14:27:08.474[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-18 14:27:08.476[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 14:27:08.491[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-18 14:27:08.492[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 14:27:08.493[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.StartupInfoLogger              [0;39m 61  [2m:[0;39m Started PermissionMain in 9.289 seconds (JVM running for 10.196)
+[2m2024-06-18 14:27:08.877[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2024-06-18 14:27:08.878[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 525 [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2024-06-18 14:27:08.878[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m 526 [2m:[0;39m Detected StandardServletMultipartResolver
+[2m2024-06-18 14:27:08.900[0;39m [32mDEBUG [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 542 [2m:[0;39m enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2m2024-06-18 14:27:08.901[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[n(3)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 547 [2m:[0;39m Completed initialization in 23 ms
+[2m2024-06-18 14:27:10.102[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Successfully joined group with generation 147
+[2m2024-06-18 14:27:10.110[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Adding newly assigned partitions: check_token_send-2
+[2m2024-06-18 14:27:10.135[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Setting offset for partition check_token_send-2 to the committed offset FetchPosition{offset=91, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-18 14:27:10.136[0;39m [32m INFO [,,,][0;39m [35m5504[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-2]
+[2m2024-06-18 15:39:03.929[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m 648 [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2024-06-18 15:39:04.552[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 15:39:04.552[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2024-06-18 15:39:04.597[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 40ms. Found 1 JPA repository interfaces.
+[2m2024-06-18 15:39:04.605[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 15:39:04.606[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2024-06-18 15:39:04.616[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.RepositoryConfigurationExtensionSupport[0;39m 348 [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lpb.mid.repo.UserRepositorys. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[2m2024-06-18 15:39:04.616[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+[2m2024-06-18 15:39:04.816[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m 295 [2m:[0;39m BeanFactory id=a6a13df1-c7f9-3e20-a831-797d87db0177
+[2m2024-06-18 15:39:05.341[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 108 [2m:[0;39m Tomcat initialized with port(s): 12389 (http)
+[2m2024-06-18 15:39:05.346[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting service [Tomcat]
+[2m2024-06-18 15:39:05.346[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2m2024-06-18 15:39:05.478[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2024-06-18 15:39:05.478[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m 285 [2m:[0;39m Root WebApplicationContext: initialization completed in 1540 ms
+[2m2024-06-18 15:39:06.404[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.redisson.Version                    [0;39m 43  [2m:[0;39m Redisson 3.27.1
+[2m2024-06-18 15:39:06.708[0;39m [33m WARN [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.r.c.SequentialDnsAddressResolverFactory[0;39m 111 [2m:[0;39m DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+[2m2024-06-18 15:39:06.958[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[isson-netty-1-6][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 1 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 15:39:07.018[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 5 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 15:39:07.445[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m 361 [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 15:39:07.453[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m 31  [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2024-06-18 15:39:07.479[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.Version                   [0;39m 44  [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.32.Final
+[2m2024-06-18 15:39:07.538[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.a.c.r.java.JavaReflectionManager    [0;39m 56  [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2024-06-18 15:39:07.593[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 110 [2m:[0;39m HikariPool-1 - Starting...
+[2m2024-06-18 15:39:07.594[0;39m [33m WARN [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m 70  [2m:[0;39m Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2m2024-06-18 15:39:08.055[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 123 [2m:[0;39m HikariPool-1 - Start completed.
+[2m2024-06-18 15:39:08.063[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.dialect.Dialect           [0;39m 175 [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2m2024-06-18 15:39:08.580[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m 52  [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2024-06-18 15:39:08.586[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.AbstractEntityManagerFactoryBean[0;39m 419 [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 15:39:08.669[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 15:39:08.695[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 15:39:08.696[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 15:39:08.696[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 15:39:08.720[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 15:39:08.720[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 15:39:08.751[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 15:39:08.752[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 15:39:08.752[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 15:39:09.363[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2024-06-18 15:39:09.389[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m 614 [2m:[0;39m ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2m2024-06-18 15:39:09.433[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.h.AbstractHandlerMethodMapping  [0;39m 351 [2m:[0;39m 2 mappings in 'requestMappingHandlerMapping'
+[2m2024-06-18 15:39:09.453[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m 173 [2m:[0;39m Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2m2024-06-18 15:39:09.495[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m 297 [2m:[0;39m ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2m2024-06-18 15:39:10.027[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m 58  [2m:[0;39m LiveReload server is running on port 35729
+[2m2024-06-18 15:39:10.351[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m 58  [2m:[0;39m Exposing 15 endpoint(s) beneath base path '/actuator'
+[2m2024-06-18 15:39:10.468[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-18 15:39:10.503[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 15:39:10.503[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 15:39:10.503[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718699950502
+[2m2024-06-18 15:39:10.505[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-18 15:39:10.506[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-18 15:39:10.520[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 220 [2m:[0;39m Tomcat started on port(s): 12389 (http) with context path ''
+[2m2024-06-18 15:39:10.658[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 15:39:10.659[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-18 15:39:10.661[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 15:39:10.676[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-18 15:39:10.676[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 15:39:10.716[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.StartupInfoLogger              [0;39m 61  [2m:[0;39m Started PermissionMain in 7.766 seconds (JVM running for 8.58)
+[2m2024-06-18 15:39:10.824[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2024-06-18 15:39:10.825[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 525 [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2024-06-18 15:39:10.826[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m 526 [2m:[0;39m Detected StandardServletMultipartResolver
+[2m2024-06-18 15:39:10.845[0;39m [32mDEBUG [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 542 [2m:[0;39m enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2m2024-06-18 15:39:10.845[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 547 [2m:[0;39m Completed initialization in 20 ms
+[2m2024-06-18 15:39:12.739[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Successfully joined group with generation 149
+[2m2024-06-18 15:39:12.742[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Adding newly assigned partitions: check_token_send-1
+[2m2024-06-18 15:39:12.756[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Setting offset for partition check_token_send-1 to the committed offset FetchPosition{offset=82, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.132:9092 (id: 0 rack: null)], epoch=0}}
+[2m2024-06-18 15:39:12.757[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-1]
+[2m2024-06-18 16:13:30.757[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 82, CreateTime = 1718701990844, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [102, 99, 49, 97, 54, 48, 50, 55, 45, 57, 50, 99, 56, 45, 52, 48, 53, 54, 45, 97, 99, 99, 52, 45, 55, 99, 48, 102, 52, 97, 102, 101, 50, 101, 55, 55]), RecordHeader(key = kafka_correlationId, value = [82, -5, 73, 97, 58, -84, 67, 111, -119, 12, 90, 105, 126, -39, -42, -39]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv242f1e3eaf-a327-416a-bfc7-a4b615d5994f, value = {"customerNo":"203122227","username":"lv24"})
+[2m2024-06-18 16:13:30.784[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122227, username=lv24)
+[2m2024-06-18 16:13:30.854[0;39m [32mDEBUG [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 16:13:31.069[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    6324900 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    23302900 nanoseconds spent preparing 1 JDBC statements;
+    13795700 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 16:13:31.091[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mc.l.m.s.impl.PermissionServiceImpl      [0;39m 58  [2m:[0;39m getDtoLogin :get tokenDTO ---->JWTDto(jti=null, roles=null, userName=lv24, appId=689898989, customerNo=203122227, whiteListIp=null, branchCode=null, secretKey=52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY=)
+[2m2024-06-18 16:13:31.096[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122227","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv242f1e3eaf-a327-416a-bfc7-a4b615d5994f
+[2m2024-06-18 16:13:31.111[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 3000000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 20971520
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 3000000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2m2024-06-18 16:13:31.114[0;39m [33m WARN [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.clients.producer.KafkaProducer    [0;39m 499 [2m:[0;39m [Producer clientId=producer-1] delivery.timeout.ms should be equal to or larger than linger.ms + request.timeout.ms. Setting it to 3000000.
+[2m2024-06-18 16:13:31.125[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 16:13:31.126[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 16:13:31.126[0;39m [32m INFO [,436a13da14572dbf27f2266784fd768d,eba51f9a520b94d4,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718702011125
+[2m2024-06-18 16:13:31.146[0;39m [32m INFO [,,,][0;39m [35m22544[0;39m [2m---[0;39m [2m[ad | producer-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Producer clientId=producer-1] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 16:17:27.778[0;39m [32m INFO [,b0fd4f47da8ac6cf,9da408b10e72d72c,true][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 83, CreateTime = 1718702247761, serialized key size = 53, serialized value size = 43, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [50, 52, 53, 54, 54, 99, 51, 56, 45, 99, 50, 49, 99, 45, 52, 54, 55, 98, 45, 97, 49, 101, 48, 45, 52, 100, 102, 99, 50, 50, 98, 54, 101, 50, 100, 98]), RecordHeader(key = kafka_correlationId, value = [102, 29, -128, 54, -30, 110, 74, -123, -89, 52, 31, -53, -81, -103, -123, 32]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24496fc2bc-5cb7-41d0-964f-d0e56ad47f9f, value = {"customerNo":"11111111","username":"lv24"})
+[2m2024-06-18 16:17:27.780[0;39m [32m INFO [,b0fd4f47da8ac6cf,9da408b10e72d72c,true][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=11111111, username=lv24)
+[2m2024-06-18 16:17:27.806[0;39m [32m INFO [,b0fd4f47da8ac6cf,9da408b10e72d72c,true][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"11111111","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24496fc2bc-5cb7-41d0-964f-d0e56ad47f9f
+[2m2024-06-18 16:24:30.814[0;39m [32m INFO [,c86040786e17ceb88350c1cf70c146ec,c5f635188a8040e3,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 84, CreateTime = 1718702650971, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [53, 97, 52, 55, 50, 101, 52, 51, 45, 56, 100, 50, 98, 45, 52, 55, 56, 55, 45, 98, 100, 55, 55, 45, 97, 100, 51, 53, 53, 102, 56, 49, 100, 56, 48, 51]), RecordHeader(key = kafka_correlationId, value = [-121, 14, -82, 72, -71, -122, 73, 63, -102, -47, -92, -49, 32, -74, 31, -60]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24d99bbe4f-4bae-477c-a060-ea6af67fe1ea, value = {"customerNo":"203122041","username":"lv24"})
+[2m2024-06-18 16:24:30.818[0;39m [32m INFO [,c86040786e17ceb88350c1cf70c146ec,c5f635188a8040e3,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122041, username=lv24)
+[2m2024-06-18 16:24:30.832[0;39m [32m INFO [,c86040786e17ceb88350c1cf70c146ec,c5f635188a8040e3,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122041","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24d99bbe4f-4bae-477c-a060-ea6af67fe1ea
+[2m2024-06-18 16:26:52.890[0;39m [32m INFO [,35ff33e69c2b8f91039343a596cceb53,56851e2ed4782348,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 85, CreateTime = 1718702793052, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [100, 52, 49, 50, 98, 48, 100, 56, 45, 54, 99, 100, 97, 45, 52, 50, 48, 56, 45, 97, 51, 98, 99, 45, 102, 56, 56, 50, 55, 101, 57, 49, 50, 50, 101, 56]), RecordHeader(key = kafka_correlationId, value = [-34, 122, 42, -1, 74, -43, 65, -75, -68, -32, -94, -114, -65, -49, -79, 18]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv243425cc53-016d-4452-b0f2-a26ca5fc786d, value = {"customerNo":"202558230","username":"lv24"})
+[2m2024-06-18 16:26:52.891[0;39m [32m INFO [,35ff33e69c2b8f91039343a596cceb53,56851e2ed4782348,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=202558230, username=lv24)
+[2m2024-06-18 16:26:52.899[0;39m [32m INFO [,35ff33e69c2b8f91039343a596cceb53,56851e2ed4782348,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"202558230","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv243425cc53-016d-4452-b0f2-a26ca5fc786d
+[2m2024-06-18 16:50:03.182[0;39m [32m INFO [,301e799b8b5b413c6f72d3c05a71d79c,9c5386ef57931c78,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 86, CreateTime = 1718704183045, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [52, 49, 99, 56, 54, 57, 52, 56, 45, 99, 48, 52, 98, 45, 52, 55, 57, 51, 45, 98, 50, 51, 102, 45, 48, 56, 51, 53, 50, 100, 48, 99, 98, 51, 51, 100]), RecordHeader(key = kafka_correlationId, value = [31, 113, 57, 41, -35, 10, 79, 116, -92, -124, -86, -99, 82, 124, -128, -46]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24b93f261a-b297-4e07-925a-2b3c9d55aab4, value = {"customerNo":"203121944","username":"lv24"})
+[2m2024-06-18 16:50:03.186[0;39m [32m INFO [,301e799b8b5b413c6f72d3c05a71d79c,9c5386ef57931c78,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203121944, username=lv24)
+[2m2024-06-18 16:50:03.195[0;39m [32m INFO [,301e799b8b5b413c6f72d3c05a71d79c,9c5386ef57931c78,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203121944","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24b93f261a-b297-4e07-925a-2b3c9d55aab4
+[2m2024-06-18 16:50:58.009[0;39m [32m INFO [,b9c3db52ab621b1889ad33f0a66493a0,b24e1abe620e1f54,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 87, CreateTime = 1718704238158, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [51, 53, 54, 56, 98, 55, 99, 57, 45, 97, 100, 49, 101, 45, 52, 99, 102, 52, 45, 97, 55, 101, 52, 45, 100, 57, 102, 101, 48, 98, 49, 57, 49, 53, 102, 53]), RecordHeader(key = kafka_correlationId, value = [-91, -33, 78, -58, -7, -11, 72, 33, -86, -6, -103, 123, -79, 95, -25, 90]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24864f5de9-893e-492c-837a-c4124dab4109, value = {"customerNo":"203121840","username":"lv24"})
+[2m2024-06-18 16:50:58.012[0;39m [32m INFO [,b9c3db52ab621b1889ad33f0a66493a0,b24e1abe620e1f54,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203121840, username=lv24)
+[2m2024-06-18 16:50:58.021[0;39m [32m INFO [,b9c3db52ab621b1889ad33f0a66493a0,b24e1abe620e1f54,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203121840","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24864f5de9-893e-492c-837a-c4124dab4109
+[2m2024-06-18 16:51:36.900[0;39m [32m INFO [,7223bc3c37f57d18e4828b3d44210a51,f66e09e48b2c0af0,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 88, CreateTime = 1718704277048, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [51, 52, 48, 50, 55, 53, 54, 50, 45, 102, 102, 101, 98, 45, 52, 100, 98, 97, 45, 97, 53, 100, 98, 45, 98, 99, 97, 52, 54, 98, 53, 102, 97, 53, 102, 54]), RecordHeader(key = kafka_correlationId, value = [-13, -34, -55, 58, 15, -20, 73, 89, -104, -126, 123, 122, 46, 63, -81, 56]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24614cd92e-b790-4ca4-a46c-f59e30b399b0, value = {"customerNo":"203122041","username":"lv24"})
+[2m2024-06-18 16:51:36.904[0;39m [32m INFO [,7223bc3c37f57d18e4828b3d44210a51,f66e09e48b2c0af0,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122041, username=lv24)
+[2m2024-06-18 16:51:36.914[0;39m [32m INFO [,7223bc3c37f57d18e4828b3d44210a51,f66e09e48b2c0af0,false][0;39m [35m22544[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122041","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24614cd92e-b790-4ca4-a46c-f59e30b399b0
+[2m2024-06-18 16:58:53.831[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m 648 [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2024-06-18 16:58:54.440[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 16:58:54.441[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2024-06-18 16:58:54.488[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+[2m2024-06-18 16:58:54.495[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-18 16:58:54.496[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2024-06-18 16:58:54.507[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.RepositoryConfigurationExtensionSupport[0;39m 348 [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lpb.mid.repo.UserRepositorys. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[2m2024-06-18 16:58:54.507[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+[2m2024-06-18 16:58:54.710[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m 295 [2m:[0;39m BeanFactory id=a6a13df1-c7f9-3e20-a831-797d87db0177
+[2m2024-06-18 16:58:55.251[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 108 [2m:[0;39m Tomcat initialized with port(s): 12389 (http)
+[2m2024-06-18 16:58:55.256[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting service [Tomcat]
+[2m2024-06-18 16:58:55.257[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2m2024-06-18 16:58:55.390[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2024-06-18 16:58:55.390[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m 285 [2m:[0;39m Root WebApplicationContext: initialization completed in 1551 ms
+[2m2024-06-18 16:58:56.323[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.redisson.Version                    [0;39m 43  [2m:[0;39m Redisson 3.27.1
+[2m2024-06-18 16:58:56.630[0;39m [33m WARN [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.r.c.SequentialDnsAddressResolverFactory[0;39m 111 [2m:[0;39m DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+[2m2024-06-18 16:58:56.903[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[isson-netty-1-6][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 1 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 16:58:56.950[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 5 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-18 16:58:57.384[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m 361 [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 16:58:57.392[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m 31  [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2024-06-18 16:58:57.418[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.Version                   [0;39m 44  [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.32.Final
+[2m2024-06-18 16:58:57.482[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.a.c.r.java.JavaReflectionManager    [0;39m 56  [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2024-06-18 16:58:57.534[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 110 [2m:[0;39m HikariPool-1 - Starting...
+[2m2024-06-18 16:58:57.535[0;39m [33m WARN [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m 70  [2m:[0;39m Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2m2024-06-18 16:58:58.011[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 123 [2m:[0;39m HikariPool-1 - Start completed.
+[2m2024-06-18 16:58:58.019[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.dialect.Dialect           [0;39m 175 [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2m2024-06-18 16:58:58.538[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m 52  [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2024-06-18 16:58:58.544[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.AbstractEntityManagerFactoryBean[0;39m 419 [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2024-06-18 16:58:58.631[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 16:58:58.659[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 16:58:58.660[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 16:58:58.660[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 16:58:58.684[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 16:58:58.685[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 16:58:58.719[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 16:58:58.720[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-18 16:58:58.720[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-18 16:58:59.343[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2024-06-18 16:58:59.369[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m 614 [2m:[0;39m ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2m2024-06-18 16:58:59.416[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.h.AbstractHandlerMethodMapping  [0;39m 351 [2m:[0;39m 2 mappings in 'requestMappingHandlerMapping'
+[2m2024-06-18 16:58:59.436[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m 173 [2m:[0;39m Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2m2024-06-18 16:58:59.478[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m 297 [2m:[0;39m ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2m2024-06-18 16:59:00.054[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m 58  [2m:[0;39m LiveReload server is running on port 35729
+[2m2024-06-18 16:59:00.393[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m 58  [2m:[0;39m Exposing 15 endpoint(s) beneath base path '/actuator'
+[2m2024-06-18 16:59:00.508[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-18 16:59:00.542[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 16:59:00.543[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 16:59:00.543[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718704740542
+[2m2024-06-18 16:59:00.545[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-18 16:59:00.546[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-18 16:59:00.563[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 220 [2m:[0;39m Tomcat started on port(s): 12389 (http) with context path ''
+[2m2024-06-18 16:59:00.745[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 16:59:00.746[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-18 16:59:00.748[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 16:59:00.761[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.StartupInfoLogger              [0;39m 61  [2m:[0;39m Started PermissionMain in 7.899 seconds (JVM running for 8.966)
+[2m2024-06-18 16:59:00.764[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-18 16:59:00.765[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-18 16:59:01.373[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2024-06-18 16:59:01.374[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 525 [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2024-06-18 16:59:01.374[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m 526 [2m:[0;39m Detected StandardServletMultipartResolver
+[2m2024-06-18 16:59:01.394[0;39m [32mDEBUG [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 542 [2m:[0;39m enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2m2024-06-18 16:59:01.394[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[n(1)-172.27.0.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 547 [2m:[0;39m Completed initialization in 20 ms
+[2m2024-06-18 16:59:02.462[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Successfully joined group with generation 151
+[2m2024-06-18 16:59:02.466[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Adding newly assigned partitions: check_token_send-1
+[2m2024-06-18 16:59:02.782[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Setting offset for partition check_token_send-1 to the committed offset FetchPosition{offset=89, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.132:9092 (id: 0 rack: null)], epoch=0}}
+[2m2024-06-18 16:59:02.886[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-1]
+[2m2024-06-18 17:01:52.806[0;39m [32m INFO [,25ac6373debf13f4b7d59ca863cc8a31,4f1dcbc4f94e0c03,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 89, CreateTime = 1718704892940, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [57, 51, 51, 57, 55, 54, 100, 102, 45, 53, 101, 50, 102, 45, 52, 50, 50, 54, 45, 57, 99, 100, 101, 45, 100, 102, 100, 98, 51, 51, 98, 54, 57, 56, 52, 57]), RecordHeader(key = kafka_correlationId, value = [-22, 45, -81, 72, 47, -96, 71, -63, -118, 20, -50, -39, 88, 4, -109, 123]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv242df97a41-589b-4bc9-8d64-1d046d45c344, value = {"customerNo":"203121944","username":"lv24"})
+[2m2024-06-18 17:01:52.816[0;39m [32m INFO [,25ac6373debf13f4b7d59ca863cc8a31,4f1dcbc4f94e0c03,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203121944, username=lv24)
+[2m2024-06-18 17:01:52.862[0;39m [32m INFO [,25ac6373debf13f4b7d59ca863cc8a31,4f1dcbc4f94e0c03,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203121944","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv242df97a41-589b-4bc9-8d64-1d046d45c344
+[2m2024-06-18 17:01:52.870[0;39m [32m INFO [,25ac6373debf13f4b7d59ca863cc8a31,4f1dcbc4f94e0c03,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 3000000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 20971520
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 3000000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2m2024-06-18 17:01:52.872[0;39m [33m WARN [,25ac6373debf13f4b7d59ca863cc8a31,4f1dcbc4f94e0c03,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.clients.producer.KafkaProducer    [0;39m 499 [2m:[0;39m [Producer clientId=producer-1] delivery.timeout.ms should be equal to or larger than linger.ms + request.timeout.ms. Setting it to 3000000.
+[2m2024-06-18 17:01:52.882[0;39m [32m INFO [,25ac6373debf13f4b7d59ca863cc8a31,4f1dcbc4f94e0c03,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-18 17:01:52.882[0;39m [32m INFO [,25ac6373debf13f4b7d59ca863cc8a31,4f1dcbc4f94e0c03,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-18 17:01:52.882[0;39m [32m INFO [,25ac6373debf13f4b7d59ca863cc8a31,4f1dcbc4f94e0c03,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1718704912881
+[2m2024-06-18 17:01:52.898[0;39m [32m INFO [,,,][0;39m [35m4248[0;39m [2m---[0;39m [2m[ad | producer-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Producer clientId=producer-1] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-18 17:04:26.716[0;39m [32m INFO [,c114928f4925e233f46022085e80d024,99fb066eaa497eb9,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 90, CreateTime = 1718705046860, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [55, 100, 56, 56, 51, 101, 48, 100, 45, 50, 54, 52, 48, 45, 52, 101, 50, 52, 45, 57, 98, 53, 99, 45, 56, 49, 99, 97, 49, 51, 99, 55, 100, 54, 98, 100]), RecordHeader(key = kafka_correlationId, value = [-71, -99, 71, -62, -59, -122, 66, 32, -126, 16, 69, -78, -57, -39, 30, -98]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24ae1023b8-1ef5-427c-a75f-ec7db68d07f5, value = {"customerNo":"203122041","username":"lv24"})
+[2m2024-06-18 17:04:26.718[0;39m [32m INFO [,c114928f4925e233f46022085e80d024,99fb066eaa497eb9,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122041, username=lv24)
+[2m2024-06-18 17:04:26.727[0;39m [32m INFO [,c114928f4925e233f46022085e80d024,99fb066eaa497eb9,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122041","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24ae1023b8-1ef5-427c-a75f-ec7db68d07f5
+[2m2024-06-18 17:08:30.621[0;39m [32m INFO [,448825cc7f91e8e78bbb331e309be121,597c872cfe435854,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 91, CreateTime = 1718705290759, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [57, 57, 51, 55, 97, 53, 98, 102, 45, 101, 50, 50, 57, 45, 52, 100, 49, 101, 45, 98, 101, 97, 54, 45, 100, 97, 49, 54, 97, 98, 56, 51, 98, 97, 56, 55]), RecordHeader(key = kafka_correlationId, value = [122, -72, 10, -49, 0, -109, 78, 95, -92, -72, 9, 3, 56, -66, 36, -1]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv245b792399-da6f-4647-aa91-e33562a40b0a, value = {"customerNo":"203121840","username":"lv24"})
+[2m2024-06-18 17:08:30.623[0;39m [32m INFO [,448825cc7f91e8e78bbb331e309be121,597c872cfe435854,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203121840, username=lv24)
+[2m2024-06-18 17:08:30.631[0;39m [32m INFO [,448825cc7f91e8e78bbb331e309be121,597c872cfe435854,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203121840","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv245b792399-da6f-4647-aa91-e33562a40b0a
+[2m2024-06-18 17:25:22.749[0;39m [32m INFO [,aca4dacc49cb3abcc378673652f6240e,5397507d105a97e9,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 92, CreateTime = 1718706302889, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [49, 102, 97, 99, 100, 49, 53, 53, 45, 50, 50, 49, 102, 45, 52, 50, 50, 102, 45, 57, 54, 52, 101, 45, 55, 99, 101, 51, 97, 48, 53, 99, 99, 52, 55, 52]), RecordHeader(key = kafka_correlationId, value = [-2, 30, 41, -18, -61, 24, 68, 67, -121, -62, 126, -116, -25, 78, -90, 60]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv241bfa17d4-22e4-4498-8e50-cdddef593d3e, value = {"customerNo":"203122041","username":"lv24"})
+[2m2024-06-18 17:25:22.753[0;39m [32m INFO [,aca4dacc49cb3abcc378673652f6240e,5397507d105a97e9,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122041, username=lv24)
+[2m2024-06-18 17:25:22.762[0;39m [32m INFO [,aca4dacc49cb3abcc378673652f6240e,5397507d105a97e9,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122041","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv241bfa17d4-22e4-4498-8e50-cdddef593d3e
+[2m2024-06-18 17:26:23.338[0;39m [32m INFO [,d88b69d34eafe69965a8d9ebd8a91162,cd0c2e49864916ba,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 93, CreateTime = 1718706363481, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [52, 102, 50, 101, 57, 54, 98, 49, 45, 99, 55, 48, 50, 45, 52, 50, 57, 52, 45, 57, 57, 49, 53, 45, 51, 99, 56, 56, 57, 50, 54, 57, 55, 48, 102, 98]), RecordHeader(key = kafka_correlationId, value = [2, -18, -78, 70, -44, -10, 79, 127, -96, 11, -37, 92, -40, -89, 122, 93]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24b8b78859-4905-4189-8cc4-43639b7ba031, value = {"customerNo":"203122205","username":"lv24"})
+[2m2024-06-18 17:26:23.340[0;39m [32m INFO [,d88b69d34eafe69965a8d9ebd8a91162,cd0c2e49864916ba,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122205, username=lv24)
+[2m2024-06-18 17:26:23.351[0;39m [32m INFO [,d88b69d34eafe69965a8d9ebd8a91162,cd0c2e49864916ba,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122205","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24b8b78859-4905-4189-8cc4-43639b7ba031
+[2m2024-06-18 17:37:15.299[0;39m [32m INFO [,ae3240ee833bc6ebdc6db5b216a49f1e,e93b7b8df8947921,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 94, CreateTime = 1718707015439, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [98, 97, 54, 54, 50, 102, 53, 51, 45, 54, 57, 102, 56, 45, 52, 100, 53, 55, 45, 56, 102, 99, 102, 45, 52, 51, 50, 56, 102, 48, 49, 101, 56, 100, 102, 50]), RecordHeader(key = kafka_correlationId, value = [6, 84, -124, 68, -101, -3, 69, -19, -98, 87, -119, 52, 76, -40, -100, 31]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24faed2bd3-cd16-4dd0-ae56-636f8b7dd101, value = {"customerNo":"203122188","username":"lv24"})
+[2m2024-06-18 17:37:15.302[0;39m [32m INFO [,ae3240ee833bc6ebdc6db5b216a49f1e,e93b7b8df8947921,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122188, username=lv24)
+[2m2024-06-18 17:37:15.309[0;39m [32m INFO [,ae3240ee833bc6ebdc6db5b216a49f1e,e93b7b8df8947921,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122188","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24faed2bd3-cd16-4dd0-ae56-636f8b7dd101
+[2m2024-06-18 17:53:11.472[0;39m [32m INFO [,f63e4a2dbff33185c517185b15d3b08b,d917aef617a2ec2c,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 95, CreateTime = 1718707971607, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [56, 57, 53, 102, 55, 51, 102, 57, 45, 48, 57, 51, 49, 45, 52, 48, 102, 98, 45, 98, 97, 50, 54, 45, 102, 53, 101, 56, 50, 101, 102, 57, 102, 97, 49, 97]), RecordHeader(key = kafka_correlationId, value = [-78, 78, 105, 46, -33, -27, 71, 56, -124, -123, -45, -93, -30, -15, -56, 28]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv248f57b8fc-f38d-4f3a-92f5-b5f75f1dada6, value = {"customerNo":"203122181","username":"lv24"})
+[2m2024-06-18 17:53:11.475[0;39m [32m INFO [,f63e4a2dbff33185c517185b15d3b08b,d917aef617a2ec2c,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122181, username=lv24)
+[2m2024-06-18 17:53:11.484[0;39m [32m INFO [,f63e4a2dbff33185c517185b15d3b08b,d917aef617a2ec2c,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122181","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv248f57b8fc-f38d-4f3a-92f5-b5f75f1dada6
+[2m2024-06-18 18:03:26.566[0;39m [32m INFO [,2b9ede759ed8065eb3cc9a49ae41e4ef,eb2fdfd41781739e,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 96, CreateTime = 1718708586696, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [51, 100, 102, 100, 52, 98, 100, 100, 45, 51, 53, 49, 100, 45, 52, 97, 57, 102, 45, 98, 98, 57, 49, 45, 54, 54, 52, 52, 48, 97, 98, 49, 99, 48, 100, 102]), RecordHeader(key = kafka_correlationId, value = [19, 78, -9, 99, -43, 81, 77, -121, -65, 38, -24, 35, -57, -10, -23, 89]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv240305b1f9-d35c-431f-a79d-c1c6f4a85fcd, value = {"customerNo":"203122205","username":"lv24"})
+[2m2024-06-18 18:03:26.567[0;39m [32m INFO [,2b9ede759ed8065eb3cc9a49ae41e4ef,eb2fdfd41781739e,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122205, username=lv24)
+[2m2024-06-18 18:03:26.574[0;39m [32m INFO [,2b9ede759ed8065eb3cc9a49ae41e4ef,eb2fdfd41781739e,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122205","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv240305b1f9-d35c-431f-a79d-c1c6f4a85fcd
+[2m2024-06-18 18:04:49.236[0;39m [32m INFO [,431c2f01dc919f39ba9188f28feefb6d,ff965c0e3b9b39f8,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 97, CreateTime = 1718708669365, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [50, 101, 55, 97, 57, 56, 54, 56, 45, 99, 101, 49, 97, 45, 52, 99, 54, 100, 45, 56, 53, 57, 51, 45, 101, 57, 48, 56, 48, 98, 100, 100, 57, 50, 51, 57]), RecordHeader(key = kafka_correlationId, value = [-4, 33, -89, 111, -46, 41, 76, 112, -100, -94, 24, -49, 35, -75, 99, -126]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv2455ebd164-b963-4c7b-b0a6-0a44dcc0329a, value = {"customerNo":"203122222","username":"lv24"})
+[2m2024-06-18 18:04:49.239[0;39m [32m INFO [,431c2f01dc919f39ba9188f28feefb6d,ff965c0e3b9b39f8,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122222, username=lv24)
+[2m2024-06-18 18:04:49.248[0;39m [32m INFO [,431c2f01dc919f39ba9188f28feefb6d,ff965c0e3b9b39f8,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122222","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv2455ebd164-b963-4c7b-b0a6-0a44dcc0329a
+[2m2024-06-18 18:17:50.040[0;39m [32m INFO [,26627c024eef2b546ea68767af83d6b2,7ca8d5d1e2f15fea,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 98, CreateTime = 1718709450163, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [100, 102, 53, 99, 57, 98, 49, 48, 45, 55, 55, 102, 102, 45, 52, 50, 102, 48, 45, 57, 97, 57, 56, 45, 53, 100, 52, 98, 56, 101, 56, 55, 53, 56, 97, 51]), RecordHeader(key = kafka_correlationId, value = [-93, 104, 72, 28, 32, -85, 75, -58, -101, -6, 8, -87, -53, 101, 79, -125]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv2402e29e6c-3b68-4366-89d2-45fb1a7e1fd3, value = {"customerNo":"203122041","username":"lv24"})
+[2m2024-06-18 18:17:50.043[0;39m [32m INFO [,26627c024eef2b546ea68767af83d6b2,7ca8d5d1e2f15fea,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122041, username=lv24)
+[2m2024-06-18 18:17:50.053[0;39m [32m INFO [,26627c024eef2b546ea68767af83d6b2,7ca8d5d1e2f15fea,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122041","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv2402e29e6c-3b68-4366-89d2-45fb1a7e1fd3
+[2m2024-06-18 18:19:21.982[0;39m [32m INFO [,4fe54f7ebad67bee26347f43524f9fed,a59a45b34351630e,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 99, CreateTime = 1718709542106, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [55, 99, 53, 101, 99, 54, 52, 102, 45, 52, 51, 52, 98, 45, 52, 100, 101, 102, 45, 97, 50, 57, 99, 45, 100, 54, 48, 98, 100, 50, 102, 100, 55, 100, 100, 101]), RecordHeader(key = kafka_correlationId, value = [-107, 93, -46, 18, 84, 88, 78, -123, -90, 90, -6, 90, 36, -1, -103, 126]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv245037380c-16d5-43d7-bb8a-657a08ae289d, value = {"customerNo":"203122041","username":"lv24"})
+[2m2024-06-18 18:19:21.984[0;39m [32m INFO [,4fe54f7ebad67bee26347f43524f9fed,a59a45b34351630e,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122041, username=lv24)
+[2m2024-06-18 18:19:21.992[0;39m [32m INFO [,4fe54f7ebad67bee26347f43524f9fed,a59a45b34351630e,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122041","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv245037380c-16d5-43d7-bb8a-657a08ae289d
+[2m2024-06-18 18:19:23.385[0;39m [32m INFO [,f96587709a72c5d83d0ef28c916efe2a,f71ef8220e4492c1,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 28  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 1, leaderEpoch = 0, offset = 100, CreateTime = 1718709543509, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [49, 52, 57, 99, 57, 49, 57, 101, 45, 49, 55, 102, 102, 45, 52, 97, 57, 100, 45, 98, 54, 97, 98, 45, 51, 50, 102, 55, 100, 49, 99, 57, 52, 48, 49, 102]), RecordHeader(key = kafka_correlationId, value = [-45, -90, -120, 121, 39, -40, 70, -18, -122, 120, -54, 47, -118, 3, 95, -67]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24fcf9729b-a204-486e-a5a2-c025a74cf9ba, value = {"customerNo":"203122041","username":"lv24"})
+[2m2024-06-18 18:19:23.388[0;39m [32m INFO [,f96587709a72c5d83d0ef28c916efe2a,f71ef8220e4492c1,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 33  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122041, username=lv24)
+[2m2024-06-18 18:19:23.397[0;39m [32m INFO [,f96587709a72c5d83d0ef28c916efe2a,f71ef8220e4492c1,false][0;39m [35m4248[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 36  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122041","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24fcf9729b-a204-486e-a5a2-c025a74cf9ba

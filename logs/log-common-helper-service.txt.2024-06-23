@@ -1,0 +1,1925 @@
+[2m2024-06-23 10:59:37.990[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m 648 [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2024-06-23 10:59:40.144[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-23 10:59:40.144[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2024-06-23 10:59:40.319[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 141ms. Found 1 JPA repository interfaces.
+[2m2024-06-23 10:59:40.357[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 249 [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2024-06-23 10:59:40.360[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 127 [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2024-06-23 10:59:40.400[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.RepositoryConfigurationExtensionSupport[0;39m 348 [2m:[0;39m Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.lpb.mid.repo.UserRepositorys. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+[2m2024-06-23 10:59:40.400[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m 187 [2m:[0;39m Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+[2m2024-06-23 10:59:41.204[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.cloud.context.scope.GenericScope    [0;39m 295 [2m:[0;39m BeanFactory id=a6a13df1-c7f9-3e20-a831-797d87db0177
+[2m2024-06-23 10:59:42.613[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 108 [2m:[0;39m Tomcat initialized with port(s): 12389 (http)
+[2m2024-06-23 10:59:42.623[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting service [Tomcat]
+[2m2024-06-23 10:59:42.631[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.46]
+[2m2024-06-23 10:59:42.906[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2024-06-23 10:59:42.906[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m 285 [2m:[0;39m Root WebApplicationContext: initialization completed in 4885 ms
+[2m2024-06-23 10:59:46.035[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.redisson.Version                    [0;39m 43  [2m:[0;39m Redisson 3.27.1
+[2m2024-06-23 10:59:46.691[0;39m [33m WARN [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.r.c.SequentialDnsAddressResolverFactory[0;39m 111 [2m:[0;39m DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+[2m2024-06-23 10:59:47.056[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[isson-netty-1-6][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 1 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-23 10:59:47.114[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.redisson.connection.ConnectionsHolder [0;39m 191 [2m:[0;39m 5 connections initialized for 10.37.11.78/10.37.11.78:6379
+[2m2024-06-23 10:59:47.666[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m 361 [2m:[0;39m Building JPA container EntityManagerFactory for persistence unit 'default'
+[2m2024-06-23 10:59:47.681[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m 31  [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2024-06-23 10:59:47.761[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.Version                   [0;39m 44  [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.32.Final
+[2m2024-06-23 10:59:47.936[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.a.c.r.java.JavaReflectionManager    [0;39m 56  [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2024-06-23 10:59:48.051[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 110 [2m:[0;39m HikariPool-1 - Starting...
+[2m2024-06-23 10:59:48.051[0;39m [33m WARN [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.util.DriverDataSource [0;39m 70  [2m:[0;39m Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+[2m2024-06-23 10:59:48.702[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m 123 [2m:[0;39m HikariPool-1 - Start completed.
+[2m2024-06-23 10:59:48.724[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36morg.hibernate.dialect.Dialect           [0;39m 175 [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2m2024-06-23 10:59:49.829[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m 52  [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2024-06-23 10:59:49.845[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.o.j.AbstractEntityManagerFactoryBean[0;39m 419 [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2024-06-23 10:59:50.109[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-23 10:59:50.194[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-23 10:59:50.210[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-23 10:59:50.210[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-23 10:59:50.294[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-23 10:59:50.294[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-23 10:59:50.379[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-23 10:59:50.379[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-23 10:59:50.379[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-23 10:59:51.686[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2024-06-23 10:59:51.717[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36ms.w.s.m.m.a.RequestMappingHandlerAdapter[0;39m 614 [2m:[0;39m ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2m2024-06-23 10:59:51.775[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.h.AbstractHandlerMethodMapping  [0;39m 351 [2m:[0;39m 2 mappings in 'requestMappingHandlerMapping'
+[2m2024-06-23 10:59:51.807[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.w.s.handler.SimpleUrlHandlerMapping [0;39m 173 [2m:[0;39m Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+[2m2024-06-23 10:59:51.855[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.m.m.a.ExceptionHandlerExceptionResolver[0;39m 297 [2m:[0;39m ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2m2024-06-23 10:59:52.747[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m 58  [2m:[0;39m LiveReload server is running on port 35729
+[2m2024-06-23 10:59:53.224[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.e.web.EndpointLinksResolver     [0;39m 58  [2m:[0;39m Exposing 15 endpoint(s) beneath base path '/actuator'
+[2m2024-06-23 10:59:53.438[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.499[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.499[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.499[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193499
+[2m2024-06-23 10:59:53.499[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.499[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.507[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.507[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.507[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.507[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193507
+[2m2024-06-23 10:59:53.507[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-2, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.507[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193517
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-3, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193517
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-4, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.517[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.531[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.533[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.534[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.534[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193533
+[2m2024-06-23 10:59:53.534[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-5, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.534[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.537[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.539[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.540[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.540[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193539
+[2m2024-06-23 10:59:53.540[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-6, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.540[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.543[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.545[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.545[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.545[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193545
+[2m2024-06-23 10:59:53.545[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-7, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.545[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.548[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.550[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193550
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-8, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193552
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-9, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.552[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.562[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.562[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.562[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193562
+[2m2024-06-23 10:59:53.562[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.562[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.564[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.566[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.566[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.566[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193566
+[2m2024-06-23 10:59:53.567[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.567[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.569[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.572[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.572[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.572[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193572
+[2m2024-06-23 10:59:53.572[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.572[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.574[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.576[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.576[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.576[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193576
+[2m2024-06-23 10:59:53.577[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.577[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.579[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.579[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.579[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.579[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193579
+[2m2024-06-23 10:59:53.579[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.579[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.579[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.579[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193579
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193594
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193594
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.594[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.610[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.610[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.610[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193610
+[2m2024-06-23 10:59:53.610[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.610[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.610[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.610[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193610
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-19, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 20971520
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = check_token_red
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 20971520
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719115193618
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m 974 [2m:[0;39m [Consumer clientId=consumer-check_token_red-20, groupId=check_token_red] Subscribed to topic(s): check_token_send
+[2m2024-06-23 10:59:53.618[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.ExecutorConfigurationSupport    [0;39m 181 [2m:[0;39m Initializing ExecutorService
+[2m2024-06-23 10:59:53.634[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m 220 [2m:[0;39m Tomcat started on port(s): 12389 (http) with context path ''
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-2-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-3, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-4-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-5, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-7-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-8, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-5-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-6, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-18-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-19, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-3-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-4, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-19-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-20, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-8-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-9, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-6-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-7, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-1-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Consumer clientId=consumer-check_token_red-2, groupId=check_token_red] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-18-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-19, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-7-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-8, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-2-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-3, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-19-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-20, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-4-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-5, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-5-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-6, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-8-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-9, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-3-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-4, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-1-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-2, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-6-C-1][0;39m [36mordinator$FindCoordinatorResponseHandler[0;39m 797 [2m:[0;39m [Consumer clientId=consumer-check_token_red-7, groupId=check_token_red] Discovered group coordinator 10.36.126.132:9092 (id: 2147483647 rack: null)
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-1-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-2, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-18-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-19, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-4-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-5, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-7-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-8, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-8-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-9, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-6-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-7, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-2-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-3, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-19-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-20, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-3-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-4, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-5-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-6, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.734[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-18-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-19, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-19-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-20, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-3-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-4, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-1-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-2, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-19-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-20, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-8-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-9, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-2-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-3, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-4-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-5, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-8-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-9, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-18-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-19, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-4-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-5, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-6-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-7, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-7-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-8, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.769[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-6-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-7, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.769[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-7-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-8, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-5-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-6, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-1-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-2, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.769[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 455 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2024-06-23 10:59:53.769[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-2-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-3, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.769[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.768[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-3-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-4, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.769[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-5-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-6, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.769[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m 552 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] (Re-)joining group
+[2m2024-06-23 10:59:53.966[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.StartupInfoLogger              [0;39m 61  [2m:[0;39m Started PermissionMain in 18.092 seconds (JVM running for 19.499)
+[2m2024-06-23 10:59:54.534[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[6)-172.19.160.1][0;39m [36morg.apache.juli.logging.DirectJDKLog    [0;39m 173 [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2024-06-23 10:59:54.534[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[6)-172.19.160.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 525 [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2024-06-23 10:59:54.534[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[6)-172.19.160.1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m 526 [2m:[0;39m Detected StandardServletMultipartResolver
+[2m2024-06-23 10:59:54.554[0;39m [32mDEBUG [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[6)-172.19.160.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 542 [2m:[0;39m enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2m2024-06-23 10:59:54.554[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[6)-172.19.160.1][0;39m [36mo.s.web.servlet.FrameworkServlet        [0;39m 547 [2m:[0;39m Completed initialization in 20 ms
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-3-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-4, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-7-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-8, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-8-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-9, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-6-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-7, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-5-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-6, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-4-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-5, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-18-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-19, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-19-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-20, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-1-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-2, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-6-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-7, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-8-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-9, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-2-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-3, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.i.AbstractCoordinator$2       [0;39m 503 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Successfully joined group with generation 177
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-5-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-6, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.778[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-19-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-20, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-7-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-8, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-3-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-4, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-4-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-5, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-18-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-19, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-4-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-1-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-2, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-6-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-2-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-3, groupId=check_token_red] Adding newly assigned partitions: 
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-8-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-5-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-7-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-18-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-19-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-1-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-3-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.794[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-2-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: []
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] Adding newly assigned partitions: check_token_send-5
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] Adding newly assigned partitions: check_token_send-13
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] Adding newly assigned partitions: check_token_send-11
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Adding newly assigned partitions: check_token_send-2
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] Adding newly assigned partitions: check_token_send-23
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] Adding newly assigned partitions: check_token_send-7
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] Adding newly assigned partitions: check_token_send-15
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] Adding newly assigned partitions: check_token_send-27
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] Adding newly assigned partitions: check_token_send-20
+[2m2024-06-23 10:59:56.801[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 273 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] Adding newly assigned partitions: check_token_send-25
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-10, groupId=check_token_red] Setting offset for partition check_token_send-5 to the committed offset FetchPosition{offset=647, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-16, groupId=check_token_red] Setting offset for partition check_token_send-23 to the committed offset FetchPosition{offset=641, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-1, groupId=check_token_red] Setting offset for partition check_token_send-2 to the committed offset FetchPosition{offset=592, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-11, groupId=check_token_red] Setting offset for partition check_token_send-7 to the committed offset FetchPosition{offset=646, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.132:9092 (id: 0 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-12, groupId=check_token_red] Setting offset for partition check_token_send-11 to the committed offset FetchPosition{offset=658, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-17, groupId=check_token_red] Setting offset for partition check_token_send-25 to the committed offset FetchPosition{offset=637, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.132:9092 (id: 0 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-13, groupId=check_token_red] Setting offset for partition check_token_send-13 to the committed offset FetchPosition{offset=635, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.132:9092 (id: 0 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-15, groupId=check_token_red] Setting offset for partition check_token_send-20 to the committed offset FetchPosition{offset=647, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.134:9092 (id: 2 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-14, groupId=check_token_red] Setting offset for partition check_token_send-15 to the committed offset FetchPosition{offset=646, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.133:9092 (id: 1 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m 799 [2m:[0;39m [Consumer clientId=consumer-check_token_red-18, groupId=check_token_red] Setting offset for partition check_token_send-27 to the committed offset FetchPosition{offset=622, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.36.126.133:9092 (id: 1 rack: null)], epoch=0}}
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-13]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-2]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-5]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-25]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-11-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-11]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-13-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-15]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-7]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-27]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-23]
+[2m2024-06-23 10:59:56.816[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-14-C-1][0;39m [36mo.springframework.core.log.LogAccessor  [0;39m 292 [2m:[0;39m check_token_red: partitions assigned: [check_token_send-20]
+[2m2024-06-23 13:53:05.865[0;39m [32m INFO [,2810225cc791f8f1609f10649ae720ab,7563f54fa0d49c1a,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 29  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 27, leaderEpoch = 0, offset = 622, CreateTime = 1719125563647, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [102, 57, 100, 50, 50, 53, 51, 97, 45, 99, 97, 98, 48, 45, 52, 99, 102, 100, 45, 57, 52, 53, 53, 45, 55, 49, 52, 51, 54, 55, 48, 56, 56, 102, 100, 56]), RecordHeader(key = kafka_correlationId, value = [-43, -57, 56, -71, -108, -81, 76, -26, -97, 84, 80, 85, -87, 79, -70, 108]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv243cd1b196-926d-400f-8409-9f00c60e96f1, value = {"customerNo":"111861943","username":"lv24"})
+[2m2024-06-23 13:53:05.882[0;39m [32m INFO [,2810225cc791f8f1609f10649ae720ab,7563f54fa0d49c1a,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 34  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=111861943, username=lv24)
+[2m2024-06-23 13:53:05.957[0;39m [32m INFO [,2810225cc791f8f1609f10649ae720ab,7563f54fa0d49c1a,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 37  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"111861943","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv243cd1b196-926d-400f-8409-9f00c60e96f1
+[2m2024-06-23 13:53:05.971[0;39m [32m INFO [,2810225cc791f8f1609f10649ae720ab,7563f54fa0d49c1a,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.kafka.common.config.AbstractConfig  [0;39m 347 [2m:[0;39m ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [10.36.126.132:9092, 10.36.126.133:9092, 10.36.126.134:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = default
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 3000000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 20971520
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 3000000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[2m2024-06-23 13:53:05.973[0;39m [33m WARN [,2810225cc791f8f1609f10649ae720ab,7563f54fa0d49c1a,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.clients.producer.KafkaProducer    [0;39m 499 [2m:[0;39m [Producer clientId=producer-1] delivery.timeout.ms should be equal to or larger than linger.ms + request.timeout.ms. Setting it to 3000000.
+[2m2024-06-23 13:53:05.983[0;39m [32m INFO [,2810225cc791f8f1609f10649ae720ab,7563f54fa0d49c1a,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 117 [2m:[0;39m Kafka version: 2.5.1
+[2m2024-06-23 13:53:05.984[0;39m [32m INFO [,2810225cc791f8f1609f10649ae720ab,7563f54fa0d49c1a,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 118 [2m:[0;39m Kafka commitId: 0efa8fb0f4c73d92
+[2m2024-06-23 13:53:05.984[0;39m [32m INFO [,2810225cc791f8f1609f10649ae720ab,7563f54fa0d49c1a,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mo.a.k.c.utils.AppInfoParser$AppInfo     [0;39m 119 [2m:[0;39m Kafka startTimeMs: 1719125585983
+[2m2024-06-23 13:53:06.001[0;39m [32m INFO [,,,][0;39m [35m7388[0;39m [2m---[0;39m [2m[ad | producer-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m 277 [2m:[0;39m [Producer clientId=producer-1] Cluster ID: OXXUcf4xR3-NtmPYLdvc7A
+[2m2024-06-23 13:55:08.866[0;39m [32m INFO [,96128b406237e8093b8a01790f453631,80ede49275cccc0d,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 29  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 5, leaderEpoch = 0, offset = 647, CreateTime = 1719125686710, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [98, 57, 49, 98, 55, 54, 53, 49, 45, 51, 100, 48, 97, 45, 52, 55, 55, 55, 45, 98, 57, 55, 56, 45, 102, 57, 100, 98, 98, 51, 55, 102, 48, 52, 102, 50]), RecordHeader(key = kafka_correlationId, value = [-19, 94, -46, -105, 2, -119, 65, 112, -119, -93, 50, -109, -118, 0, -80, 78]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24ab58efc4-8409-4a28-937b-a89b39ded52d, value = {"customerNo":"111861943","username":"lv24"})
+[2m2024-06-23 13:55:08.871[0;39m [32m INFO [,96128b406237e8093b8a01790f453631,80ede49275cccc0d,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 34  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=111861943, username=lv24)
+[2m2024-06-23 13:55:08.881[0;39m [32m INFO [,96128b406237e8093b8a01790f453631,80ede49275cccc0d,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[ntainer#0-9-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 37  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"111861943","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24ab58efc4-8409-4a28-937b-a89b39ded52d
+[2m2024-06-23 14:05:35.292[0;39m [32m INFO [,749427b65c76e004ee89ba9a2501c452,39937df7db7f4a3c,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 29  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 13, leaderEpoch = 0, offset = 635, CreateTime = 1719126313121, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [53, 99, 50, 53, 54, 101, 51, 57, 45, 98, 57, 98, 48, 45, 52, 97, 97, 98, 45, 56, 48, 53, 56, 45, 53, 56, 52, 56, 57, 102, 102, 49, 102, 48, 102, 99]), RecordHeader(key = kafka_correlationId, value = [-57, 19, -121, -90, 49, -81, 76, -68, -70, -114, 16, 89, -74, -51, 58, 22]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24333e09fe-f6a0-4c3a-91ec-b37cd1b621d8, value = {"customerNo":"203122253","username":"lv24"})
+[2m2024-06-23 14:05:35.295[0;39m [32m INFO [,749427b65c76e004ee89ba9a2501c452,39937df7db7f4a3c,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 34  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122253, username=lv24)
+[2m2024-06-23 14:05:35.312[0;39m [32mDEBUG [,749427b65c76e004ee89ba9a2501c452,39937df7db7f4a3c,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mtor$SharedEntityManagerInvocationHandler[0;39m 305 [2m:[0;39m Creating new EntityManager for shared EntityManager invocation
+[2m2024-06-23 14:05:35.545[0;39m [32m INFO [,749427b65c76e004ee89ba9a2501c452,39937df7db7f4a3c,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mi.StatisticalLoggingSessionEventListener[0;39m 258 [2m:[0;39m Session Metrics {
+    5569400 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    28625200 nanoseconds spent preparing 1 JDBC statements;
+    10948700 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[2m2024-06-23 14:05:35.560[0;39m [32m INFO [,749427b65c76e004ee89ba9a2501c452,39937df7db7f4a3c,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mc.l.m.s.impl.PermissionServiceImpl      [0;39m 58  [2m:[0;39m getDtoLogin :get tokenDTO ---->JWTDto(jti=null, roles=null, userName=lv24, appId=689898989, customerNo=203122253, whiteListIp=null, branchCode=null, secretKey=52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY=)
+[2m2024-06-23 14:05:35.561[0;39m [32m INFO [,749427b65c76e004ee89ba9a2501c452,39937df7db7f4a3c,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-12-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 37  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122253","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24333e09fe-f6a0-4c3a-91ec-b37cd1b621d8
+[2m2024-06-23 14:11:32.343[0;39m [32m INFO [,9fc9178133d866e2c94cf5a6390eb36c,c98cac10480b38c3,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 29  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 25, leaderEpoch = 0, offset = 637, CreateTime = 1719126670197, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [99, 57, 51, 102, 100, 102, 99, 102, 45, 57, 56, 50, 54, 45, 52, 57, 51, 99, 45, 97, 53, 49, 55, 45, 102, 100, 97, 49, 56, 99, 98, 50, 50, 51, 55, 52]), RecordHeader(key = kafka_correlationId, value = [-101, 11, 21, -127, 74, -27, 77, -24, -66, 122, 46, 119, -64, 54, 102, -120]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv2444d33f33-e557-429c-8050-05c6f47d6d54, value = {"customerNo":"203122253","username":"lv24"})
+[2m2024-06-23 14:11:32.344[0;39m [32m INFO [,9fc9178133d866e2c94cf5a6390eb36c,c98cac10480b38c3,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 34  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122253, username=lv24)
+[2m2024-06-23 14:11:32.350[0;39m [32m INFO [,9fc9178133d866e2c94cf5a6390eb36c,c98cac10480b38c3,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-16-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 37  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122253","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv2444d33f33-e557-429c-8050-05c6f47d6d54
+[2m2024-06-23 14:17:42.637[0;39m [32m INFO [,c4e70867ad30e81d05fa9434c5198f8f,7b118852ab6ff642,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 29  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 23, leaderEpoch = 0, offset = 641, CreateTime = 1719127040506, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [102, 57, 99, 102, 50, 55, 52, 48, 45, 51, 54, 50, 49, 45, 52, 55, 99, 54, 45, 56, 102, 49, 55, 45, 100, 56, 101, 55, 97, 48, 101, 50, 50, 50, 48, 54]), RecordHeader(key = kafka_correlationId, value = [98, 15, -63, 5, -92, 117, 76, -75, -103, 106, -84, 49, -47, 16, -28, -88]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24a235eefa-0943-415e-9d0b-a076a8f3e993, value = {"customerNo":"203122253","username":"lv24"})
+[2m2024-06-23 14:17:42.639[0;39m [32m INFO [,c4e70867ad30e81d05fa9434c5198f8f,7b118852ab6ff642,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 34  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122253, username=lv24)
+[2m2024-06-23 14:17:42.644[0;39m [32m INFO [,c4e70867ad30e81d05fa9434c5198f8f,7b118852ab6ff642,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-15-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 37  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122253","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24a235eefa-0943-415e-9d0b-a076a8f3e993
+[2m2024-06-23 14:45:44.117[0;39m [32m INFO [,56910a5a9f37a406,9fd44f145de58415,true][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 29  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 27, leaderEpoch = 0, offset = 623, CreateTime = 1719128721958, serialized key size = 53, serialized value size = 49, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [98, 100, 53, 52, 102, 56, 53, 50, 45, 97, 101, 51, 99, 45, 52, 48, 100, 99, 45, 57, 50, 51, 54, 45, 50, 49, 51, 50, 53, 56, 51, 57, 98, 53, 51, 99]), RecordHeader(key = kafka_correlationId, value = [51, 4, -26, 12, -99, -15, 74, 124, -119, 36, 46, 98, 74, -53, -30, -60]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv2435383973-8dad-4b82-9a2d-4a5a303130ec, value = {"customerNo":"32435436546456","username":"lv24"})
+[2m2024-06-23 14:45:44.118[0;39m [32m INFO [,56910a5a9f37a406,9fd44f145de58415,true][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 34  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=32435436546456, username=lv24)
+[2m2024-06-23 14:45:44.126[0;39m [32m INFO [,56910a5a9f37a406,9fd44f145de58415,true][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 37  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"32435436546456","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv2435383973-8dad-4b82-9a2d-4a5a303130ec
+[2m2024-06-23 15:14:25.788[0;39m [32m INFO [,d994c30dab694491,91e13666f5eea1bf,true][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 29  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 7, leaderEpoch = 0, offset = 646, CreateTime = 1719130443631, serialized key size = 53, serialized value size = 49, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [57, 57, 101, 54, 101, 55, 56, 53, 45, 99, 51, 55, 48, 45, 52, 50, 102, 52, 45, 97, 53, 99, 56, 45, 101, 55, 98, 102, 97, 49, 49, 48, 57, 102, 49, 57]), RecordHeader(key = kafka_correlationId, value = [-17, 59, 110, -20, -45, -73, 73, 64, -105, 4, 57, 104, -29, -55, -7, 58]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24ffda7d3c-74e8-4b50-b1c4-945909ede8cf, value = {"customerNo":"32435436546456","username":"lv24"})
+[2m2024-06-23 15:14:25.791[0;39m [32m INFO [,d994c30dab694491,91e13666f5eea1bf,true][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 34  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=32435436546456, username=lv24)
+[2m2024-06-23 15:14:25.804[0;39m [32m INFO [,d994c30dab694491,91e13666f5eea1bf,true][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-10-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 37  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"32435436546456","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24ffda7d3c-74e8-4b50-b1c4-945909ede8cf
+[2m2024-06-23 15:28:48.301[0;39m [32m INFO [,baad80429573bf901746b8b4db833644,51fd9d5b7c88a9d6,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 29  [2m:[0;39m redConsumer : red message message ----> ConsumerRecord(topic = check_token_send, partition = 27, leaderEpoch = 0, offset = 624, CreateTime = 1719131306151, serialized key size = 53, serialized value size = 44, headers = RecordHeaders(headers = [RecordHeader(key = kafka_replyTopic, value = [99, 104, 101, 99, 107, 95, 116, 111, 107, 101, 110, 95, 114, 101, 97, 100, 108, 121]), RecordHeader(key = kafka_correlationId, value = [51, 54, 50, 56, 52, 100, 48, 102, 45, 53, 99, 102, 49, 45, 52, 50, 98, 52, 45, 97, 52, 48, 101, 45, 52, 100, 101, 102, 55, 54, 51, 49, 97, 100, 48, 102]), RecordHeader(key = kafka_correlationId, value = [67, -8, 69, 113, -88, 0, 73, 107, -106, 74, 30, 63, -116, -112, -83, -119]), RecordHeader(key = __TypeId__, value = [99, 111, 109, 46, 108, 112, 98, 46, 109, 105, 100, 46, 100, 116, 111, 46, 83, 101, 110, 100, 75, 97, 102, 107, 97, 68, 116, 111])], isReadOnly = false), key = Authorizationlv24f47a1e37-c47b-4194-87d1-ba8539d7346c, value = {"customerNo":"203122169","username":"lv24"})
+[2m2024-06-23 15:28:48.303[0;39m [32m INFO [,baad80429573bf901746b8b4db833644,51fd9d5b7c88a9d6,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 34  [2m:[0;39m ConsumerRecord : request read kafka ----->SendKafkaDto(customerNo=203122169, username=lv24)
+[2m2024-06-23 15:28:48.309[0;39m [32m INFO [,baad80429573bf901746b8b4db833644,51fd9d5b7c88a9d6,false][0;39m [35m7388[0;39m [2m---[0;39m [2m[tainer#0-17-C-1][0;39m [36mcom.lpb.mid.service.KafkaConsumer       [0;39m 37  [2m:[0;39m redConsumerAcc : response ---> {"jti":null,"roles":null,"userName":"lv24","appId":"689898989","customerNo":"203122169","whiteListIp":null,"branchCode":null,"secretKey":"52TMEesWl5jiot2DWW0V6yY+SR2WFf9KyO1CEBHW8oY="} by key ---->Authorizationlv24f47a1e37-c47b-4194-87d1-ba8539d7346c
